@@ -18,19 +18,19 @@ You don't need to know the format to use it — feed the bytes to `VoxrtSileroVa
 
 ## Downloads
 
-### v0.1.2
+### v0.1.3
 
 | File | Size | SHA-256 |
 | ---- | ---- | ------- |
-| [`silero_vad.vxrt`](https://github.com/VoxRT/voxrt-silero-models/releases/download/v0.1.2/silero_vad.vxrt) | 1.2M | `0fe8498c9bd1ae119bcb0c75c8481b3a8b8be0f95c14f334d469851c19054156` |
+| [`silero_vad.vxrt`](https://github.com/VoxRT/voxrt-silero-models/releases/download/v0.1.3/silero_vad.vxrt) | 1.2M | `0fe8498c9bd1ae119bcb0c75c8481b3a8b8be0f95c14f334d469851c19054156` |
 
-**Compatible with:** `VoxRT/voxrt-silero-ios@v0.1.2`, `VoxRT/voxrt-silero-android@v0.1.2`.
+**Compatible with:** `VoxRT/voxrt-silero-ios@v0.1.3`, `VoxRT/voxrt-silero-android@v0.1.3`.
 
 ## How to use
 
 ```bash
 curl -L -o silero_vad.vxrt \
-  https://github.com/VoxRT/voxrt-silero-models/releases/download/v0.1.2/silero_vad.vxrt
+  https://github.com/VoxRT/voxrt-silero-models/releases/download/v0.1.3/silero_vad.vxrt
 # verify checksum
 echo "0fe8498c9bd1ae119bcb0c75c8481b3a8b8be0f95c14f334d469851c19054156  silero_vad.vxrt" | shasum -a 256 -c
 ```
